@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
+html, body{
+    width: 1920px;
+    height: 1080px;
+    font-family: 'Londrina Solid', sans-serif;
+    /* background-color: burlywood; */
+}
+
+#sbContainer{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.scText{
+    position:absolute;
+    color: black;
+    width: 296px;
+    height: 38px;
+    top: 23px;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+#comp1{
+    left: 586px;
+    /* background-color: red; */
+}
+
+#comp2{
+    right: 586px;
+    /* background-color: blue; */
+    justify-content: end;
+}
+
+.compInfoPrefix{
+    font-weight: 100;
+    font-size: clamp(5px, 4vw, 25px);
+}
+
+.compInfoName{
+    font-size: clamp(5px, 4vw, 25px);
+}
+
+.compScore{
+    position:absolute;
+    top: 10px;
+    font-size: 55px;
+    color: white;
+}
+
+#comp1Score{
+    left: 535px
+}
+
+#comp2Score{
+    right: 535px;
+}
+
+.bottomInfo{
+    position:absolute;
+    top: 66px;
+    height: 18px;
+    width: 216px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#bracketContainer{
+    left: 576px;
+    /* background-color: red; */
+}
+
+#roundContainer{
+    /* background-color: blue; */
+    right: 576px;
+}
